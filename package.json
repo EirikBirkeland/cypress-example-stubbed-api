@@ -1,0 +1,23 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn install && cypress open",
+    "test": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^2.1.0"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cypress-react-unit-test": "^1.2.1",
+    "lodash": "^4.17.5",
+    "prop-types": "^15.6.1",
+    "react": "^16.3.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.3.0",
+    "rgb-hex": "^2.1.0"
+  }
+}
