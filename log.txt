@@ -1,0 +1,377 @@
+2018-04-01T20:42:23.110Z cypress:cli cli starts with arguments ["/home/eb/.nvm/versions/node/v8.9.1/bin/node","/home/eb/Share/cypress-example-stubbed-api/node_modules/.bin/cypress","run"]
+2018-04-01T20:42:23.111Z cypress:cli program parsing arguments
+2018-04-01T20:42:23.112Z cypress:cli running Cypress
+2018-04-01T20:42:23.188Z cypress:cli parsed cli options {}
+2018-04-01T20:42:23.188Z cypress:cli verifying Cypress app
+2018-04-01T20:42:23.189Z cypress:cli path to info.json file /home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/info.json
+2018-04-01T20:42:23.197Z cypress:cli { version: '2.1.0', verifiedVersion: '2.1.0' }
+2018-04-01T20:42:23.198Z cypress:cli installed version is 2.1.0 comparing to 2.1.0
+2018-04-01T20:42:23.198Z cypress:cli checking if executable exists /home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/Cypress
+2018-04-01T20:42:23.198Z cypress:cli path to info.json file /home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/info.json
+2018-04-01T20:42:23.199Z cypress:cli has verified version 2.1.0
+2018-04-01T20:42:23.199Z cypress:cli run verification check? false
+2018-04-01T20:42:23.199Z cypress:cli processing run options
+2018-04-01T20:42:23.199Z cypress:cli --key is not set, looking up environment variable CYPRESS_RECORD_KEY
+2018-04-01T20:42:23.199Z cypress:cli run to spawn.start args ["--run-project","/home/eb/Share/cypress-example-stubbed-api"]
+2018-04-01T20:42:23.199Z cypress:cli needs XVFB? false
+2018-04-01T20:42:23.199Z cypress:cli spawning Cypress /home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/Cypress
+2018-04-01T20:42:23.199Z cypress:cli spawn args ["--run-project","/home/eb/Share/cypress-example-stubbed-api","--cwd","/home/eb/Share/cypress-example-stubbed-api"] { dev: undefined, detached: false, stdio: 'inherit' }
+Sun, 01 Apr 2018 20:42:23 GMT cypress:ts Running without ts-node hook in environment "production"
+Sun, 01 Apr 2018 20:42:23 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production
+Sun, 01 Apr 2018 20:42:23 GMT cypress:server starting cypress server
+Sun, 01 Apr 2018 20:42:23 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production
+Sun, 01 Apr 2018 20:42:23 GMT cypress:server start in mode headless with options {"_":["/home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/Cypress"],"run-project":"/home/eb/Share/cypress-example-stubbed-api","runProject":"/home/eb/Share/cypress-example-stubbed-api","cwd":"/home/eb/Share/cypress-example-stubbed-api","projectPath":"/home/eb/Share/cypress-example-stubbed-api","run":true}
+Sun, 01 Apr 2018 20:42:23 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production/browsers
+Sun, 01 Apr 2018 20:42:23 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production/cache
+Sun, 01 Apr 2018 20:42:24 GMT cypress:server:timers queuing timer id 1 after 500 ms
+Sun, 01 Apr 2018 20:42:24 GMT cypress:server:timers child received timer id 1
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers child sending timer id 1
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers clearing timer id 1 from queue { '1': { args: [], ms: 500, cb: [Function] } }
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:headless headless mode ready with options {"_":["/home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/Cypress"],"run-project":"/home/eb/Share/cypress-example-stubbed-api","runProject":"/home/eb/Share/cypress-example-stubbed-api","cwd":"/home/eb/Share/cypress-example-stubbed-api","projectPath":"/home/eb/Share/cypress-example-stubbed-api","run":true}
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project Project created /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher checking one browser chrome
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher looking up chrome on linux platform
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher looking using command "google-chrome --version"
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher Google Chrome 65.0.3325.181
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher setting major version for {"name":"chrome","displayName":"Chrome","version":"65.0.3325.181","path":"google-chrome"}
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher browser chrome version 65.0.3325.181 major version 65
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher checking one browser chromium
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher looking up chromium on linux platform
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher looking using command "chromium-browser --version"
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher Could not detect browser Command failed: /bin/sh -c chromium-browser --version
+/bin/sh: 1: chromium-browser: not found
+
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher browser chromium not installed
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher checking one browser canary
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher looking up canary on linux platform
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher looking using command "google-chrome-canary --version"
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher Could not detect browser Command failed: /bin/sh -c google-chrome-canary --version
+/bin/sh: 1: google-chrome-canary: not found
+
+Sun, 01 Apr 2018 20:42:25 GMT cypress:launcher browser canary not installed
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server opening project /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project opening project instance /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:config setting support file /home/eb/Share/cypress-example-stubbed-api/cypress/support
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:config for project root /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:config set support folder /home/eb/Share/cypress-example-stubbed-api/cypress/support
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:config setting plugins file /home/eb/Share/cypress-example-stubbed-api/cypress/plugins
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:config for project root /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:config set pluginsFile to /home/eb/Share/cypress-example-stubbed-api/cypress/plugins/index.js
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold scaffolded files ["cypress/integration/example_spec.js","cypress/fixtures/example.json","cypress/support/commands.js","cypress/support/index.js","cypress/plugins/index.js"]
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server making saved state from /home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/resources/app/packages/server
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server for project path /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server state path for project /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/state.json
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server full state path /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/state.json
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server making new state file around /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/state.json
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:file reading JSON file /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/state.json
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold found 1 files in folder /home/eb/Share/cypress-example-stubbed-api/cypress/integration
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold Checking spec filename if default /home/eb/Share/cypress-example-stubbed-api/cypress/integration/comp.js
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold untouched scaffold false modal closed false
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold plugins folder /home/eb/Share/cypress-example-stubbed-api/cypress/plugins
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold verify scaffolding in /home/eb/Share/cypress-example-stubbed-api/cypress/plugins
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold folder /home/eb/Share/cypress-example-stubbed-api/cypress/plugins already exists
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:plugins plugins.init /home/eb/Share/cypress-example-stubbed-api/cypress/plugins/index.js
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:plugins:child pluginsFile: /home/eb/Share/cypress-example-stubbed-api/cypress/plugins/index.js
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:plugins:child require pluginsFile
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:plugins:child run plugins function
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project plugin config yielded: null
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Server listening on port 39903
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production/proxy
+Sun, 01 Apr 2018 20:42:25 GMT cypress:https-proxy Created SNI HTTPS Proxy on port 45579
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteAuth undefined
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteOrigin http://localhost:39903
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteStrategy file
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteHostAndPort null
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteDocDomain localhost
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteFileServer http://localhost:34977
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Getting remote state: { auth: undefined, props: null, origin: 'http://localhost:39903', strategy: 'file', visiting: undefined, domainName: 'localhost', fileServer: 'http://localhost:34977' }
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project project config: { projectRoot: '/home/eb/Share/cypress-example-stubbed-api', projectName: 'cypress-example-stubbed-api', morgan: false, isTextTerminal: true, socketId: 'aki13', report: true, browsers: [ { name: 'chrome', displayName: 'Chrome', version: '65.0.3325.181', path: 'google-chrome', majorVersion: '65' }, { name: 'electron', displayName: 'Electron', version: '59.0.3071.115', path: '', majorVersion: '59', info: 'Electron is the default browser that comes with Cypress. This is the browser that runs in headless mode. Selecting this browser is useful when debugging. The version number indicates the underlying Chromium version that Electron uses.' } ], port: 39903, hosts: null, baseUrl: null, userAgent: null, reporter: 'spec', reporterOptions: null, blacklistHosts: null, clientRoute: '/__/', xhrRoute: '/xhrs/', socketIoRoute: '/__socket.io', socketIoCookie: '__socket.io', reporterRoute: '/__cypress/reporter', ignoreTestFiles: '*.hot-update.js', testFiles: '**/*.*', defaultCommandTimeout: 4000, requestTimeout: 5000, responseTimeout: 30000, pageLoadTimeout: 60000, execTimeout: 60000, videoRecording: true, videoCompression: 32, videoUploadOnPasses: true, modifyObstructiveCode: true, chromeWebSecurity: true, waitForAnimations: true, animationDistanceThreshold: 5, numTestsKeptInMemory: 0, watchForFileChanges: false, screenshotOnHeadlessFailure: true, trashAssetsBeforeHeadlessRuns: true, autoOpen: false, viewportWidth: 1000, viewportHeight: 660, fileServerFolder: '/home/eb/Share/cypress-example-stubbed-api', videosFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/videos', supportFile: '/home/eb/Share/cypress-example-stubbed-api/cypress/support/index.js', fixturesFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/fixtures', integrationFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/integration', screenshotsFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/screenshots', namespace: '__cypress', pluginsFile: '/home/eb/Share/cypress-example-stubbed-api/cypress/plugins/index.js', javascripts: [], env: {}, cypressEnv: 'production', parentTestsFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress', parentTestsFolderDisplay: 'cypress-example-stubbed-api/cypress', supportFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/support', integrationExampleFile: '/home/eb/Share/cypress-example-stubbed-api/cypress/integration/example_spec.js', integrationExampleName: 'example_spec.js', scaffoldedFiles: [ { name: 'cypress', children: [Array] } ], state: { reporterWidth: 418 }, isNewProject: false, proxyUrl: 'http://localhost:39903', browserUrl: 'http://localhost:39903/__/', reporterUrl: 'http://localhost:39903/__cypress/reporter', xhrUrl: '__cypress/xhrs/' }
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:reporter loading reporter spec
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:reporter spec is Mocha reporter
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:reporter reporter spec is valid name
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project scaffolding project /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold support folder /home/eb/Share/cypress-example-stubbed-api/cypress/support, support file /home/eb/Share/cypress-example-stubbed-api/cypress/support/index.js
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold verify scaffolding in /home/eb/Share/cypress-example-stubbed-api/cypress/support
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:scaffold folder /home/eb/Share/cypress-example-stubbed-api/cypress/support already exists
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project attempt watch plugins file: /home/eb/Share/cypress-example-stubbed-api/cypress/plugins/index.js
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project plugins file found? true
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project watch plugins file
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers queuing timer id 2 after 0 ms
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers child received timer id 2
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers child sending timer id 2
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers clearing timer id 2 from queue { '2': { args: [], ms: 0, cb: [Function: clear] } }
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers clearing timer id 2 from queue {}
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:headless runTests with options { projectPath: '/home/eb/Share/cypress-example-stubbed-api',
+  id: 'aki13',
+  project: 
+   Project {
+     getConfig: [Function],
+     projectRoot: '/home/eb/Share/cypress-example-stubbed-api',
+     watchers: Watchers { watchers: [Object] },
+     server: 
+      Server {
+        _request: [Object],
+        _middleware: null,
+        _server: [Object],
+        _socket: [Object],
+        _baseUrl: null,
+        _wsProxy: [Object],
+        _fileServer: [Object],
+        _httpsProxy: [Object],
+        isListening: true,
+        _remoteAuth: undefined,
+        _remoteOrigin: 'http://localhost:39903',
+        _remoteStrategy: 'file',
+        _remoteFileServer: 'http://localhost:34977',
+        _remoteDomainName: 'localhost',
+        _remoteProps: null },
+     cfg: 
+      { projectRoot: '/home/eb/Share/cypress-example-stubbed-api',
+        projectName: 'cypress-example-stubbed-api',
+        morgan: false,
+        isTextTerminal: true,
+        socketId: 'aki13',
+        report: true,
+        browsers: [Array],
+        port: 39903,
+        hosts: null,
+        baseUrl: null,
+        userAgent: null,
+        reporter: 'spec',
+        reporterOptions: null,
+        blacklistHosts: null,
+        clientRoute: '/__/',
+        xhrRoute: '/xhrs/',
+        socketIoRoute: '/__socket.io',
+        socketIoCookie: '__socket.io',
+        reporterRoute: '/__cypress/reporter',
+        ignoreTestFiles: '*.hot-update.js',
+        testFiles: '**/*.*',
+        defaultCommandTimeout: 4000,
+        requestTimeout: 5000,
+        responseTimeout: 30000,
+        pageLoadTimeout: 60000,
+        execTimeout: 60000,
+        videoRecording: true,
+        videoCompression: 32,
+        videoUploadOnPasses: true,
+        modifyObstructiveCode: true,
+        chromeWebSecurity: true,
+        waitForAnimations: true,
+        animationDistanceThreshold: 5,
+        numTestsKeptInMemory: 0,
+        watchForFileChanges: false,
+        screenshotOnHeadlessFailure: true,
+        trashAssetsBeforeHeadlessRuns: true,
+        autoOpen: false,
+        viewportWidth: 1000,
+        viewportHeight: 660,
+        fileServerFolder: '/home/eb/Share/cypress-example-stubbed-api',
+        videosFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/videos',
+        supportFile: '/home/eb/Share/cypress-example-stubbed-api/cypress/support/index.js',
+        fixturesFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/fixtures',
+        integrationFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/integration',
+        screenshotsFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/screenshots',
+        namespace: '__cypress',
+        pluginsFile: '/home/eb/Share/cypress-example-stubbed-api/cypress/plugins/index.js',
+        javascripts: [],
+        env: {},
+        cypressEnv: 'production',
+        resolved: [Object],
+        parentTestsFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress',
+        parentTestsFolderDisplay: 'cypress-example-stubbed-api/cypress',
+        supportFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/support',
+        integrationExampleFile: '/home/eb/Share/cypress-example-stubbed-api/cypress/integration/example_spec.js',
+        integrationExampleName: 'example_spec.js',
+        scaffoldedFiles: [Array],
+        state: [Object],
+        isNewProject: false,
+        proxyUrl: 'http://localhost:39903',
+        browserUrl: 'http://localhost:39903/__/',
+        reporterUrl: 'http://localhost:39903/__cypress/reporter',
+        xhrUrl: '__cypress/xhrs/' },
+     memoryCheck: null,
+     automation: 
+      { _requests: {},
+        use: [Function: use],
+        push: [Function: push],
+        request: [Function: request],
+        response: [Function: response] } },
+  videosFolder: '/home/eb/Share/cypress-example-stubbed-api/cypress/videos',
+  videoRecording: true,
+  videoCompression: 32,
+  videoUploadOnPasses: true,
+  exit: undefined,
+  spec: undefined,
+  headed: undefined,
+  browser: undefined,
+  outputPath: undefined }
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:headless runTests for browser electron
+
+Started video recording: /home/eb/Share/cypress-example-stubbed-api/cypress/videos/tobcv.mp4
+
+  (Tests Starting)
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:video ffmpeg started
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server launching browser electron spec undefined
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:project resetting project instance /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteAuth undefined
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteOrigin http://localhost:39903
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteStrategy file
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteHostAndPort null
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteDocDomain localhost
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Setting remoteFileServer http://localhost:34977
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Getting remote state: { auth: undefined, props: null, origin: 'http://localhost:39903', strategy: 'file', visiting: undefined, domainName: 'localhost', fileServer: 'http://localhost:34977' }
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers queuing timer id 3 after 30000 ms
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers child received timer id 3
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server launching project in browser electron
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:browsers opening browser electron
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server making saved state from /home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/resources/app/packages/server
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server for project path /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server state path for project /home/eb/Share/cypress-example-stubbed-api
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/state.json
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server full state path /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/state.json
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:browsers:electron launching browser window to url http://localhost:39903/__/#/tests/__all with options { width: 1280, height: 720, show: false, onCrashed: [Function: onCrashed], onNewWindow: [Function: onNewWindow], recordFrameRate: 20, onPaint: [Function], automationMiddleware: { onAfterResponse: [Function] }, projectPath: '/home/eb/Share/cypress-example-stubbed-api', browsers: [ { name: 'chrome', displayName: 'Chrome', version: '65.0.3325.181', path: 'google-chrome', majorVersion: '65' }, { name: 'electron', displayName: 'Electron', version: '59.0.3071.115', path: '', majorVersion: '59', info: 'Electron is the default browser that comes with Cypress. This is the browser that runs in headless mode. Selecting this browser is useful when debugging. The version number indicates the underlying Chromium version that Electron uses.' } ], proxyUrl: 'http://localhost:39903', userAgent: null, proxyServer: 'http://localhost:39903', socketIoRoute: '/__socket.io', chromeWebSecurity: true, url: 'http://localhost:39903/__/#/tests/__all', onBrowserOpen: [Function: onBrowserOpen], onBrowserClose: [Function: onBrowserClose], browser: { name: 'electron', displayName: 'Electron', version: '59.0.3071.115', path: '', majorVersion: '59', info: 'Electron is the default browser that comes with Cypress. This is the browser that runs in headless mode. Selecting this browser is useful when debugging. The version number indicates the underlying Chromium version that Electron uses.' }, x: null, y: null, devTools: false, minWidth: 100, minHeight: 100, contextMenu: true, trackState: { width: 'browserWidth', height: 'browserHeight', x: 'browserX', y: 'browserY', devTools: 'isBrowserDevToolsOpen' }, onFocus: [Function: onFocus], frame: false, onBlur: [Function: onBlur], onClose: [Function: onClose], webPreferences: { chromeWebSecurity: true, nodeIntegration: false, backgroundThrottling: false, offscreen: true } }
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:browsers browser opened
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers queuing timer id 4 after 1000 ms
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:timers child received timer id 4
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:routes Serving Cypress front-end by requested URL: /__/
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server:server Getting remote state: { auth: undefined, props: null, origin: 'http://localhost:39903', strategy: 'file', visiting: undefined, domainName: 'localhost', fileServer: 'http://localhost:34977' }
+Sun, 01 Apr 2018 20:42:25 GMT cypress:server config version 2.1.0 platform linux arch x64
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:server Got CONNECT request from localhost:39903
+Sun, 01 Apr 2018 20:42:26 GMT cypress:https-proxy Writing socket connection headers for URL: localhost:39903
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:server HTTPS request does not match URL: https://localhost:39903 with props: null
+Sun, 01 Apr 2018 20:42:26 GMT cypress:https-proxy Making direct connection to localhost:39903
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:server Got UPGRADE request from /__socket.io/?EIO=3&transport=websocket
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers queuing timer id 5 after 85000 ms
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child received timer id 5
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:socket socket connected
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 5 from queue { '3': { args: [], ms: 30000, cb: [Function: timeoutTimeout] }, '4': { args: [], ms: 1000, cb: [Function] }, '5': { args: [], ms: 85000, cb: [Function] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers queuing timer id 6 after 85000 ms
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child received timer id 6
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 6 from queue { '3': { args: [], ms: 30000, cb: [Function: timeoutTimeout] }, '4': { args: [], ms: 1000, cb: [Function] }, '6': { args: [], ms: 85000, cb: [Function] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers queuing timer id 7 after 85000 ms
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child received timer id 7
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers queuing timer id 8 after 1000 ms
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child received timer id 8
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 8 from queue { '3': { args: [], ms: 30000, cb: [Function: timeoutTimeout] }, '4': { args: [], ms: 1000, cb: [Function] }, '7': { args: [], ms: 85000, cb: [Function] }, '8': { args: [], ms: 1000, cb: [Function: timeoutTimeout] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 7 from queue { '3': { args: [], ms: 30000, cb: [Function: timeoutTimeout] }, '4': { args: [], ms: 1000, cb: [Function] }, '7': { args: [], ms: 85000, cb: [Function] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers queuing timer id 9 after 85000 ms
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child received timer id 9
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:files looking for test files in the integration folder /home/eb/Share/cypress-example-stubbed-api/cypress/integration
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:files specPattern for test files is undefined
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:files found test file /home/eb/Share/cypress-example-stubbed-api/cypress/integration/comp.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:files found 1 spec files
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:files [ { name: 'comp.js',
+    path: 'cypress/integration/comp.js',
+    absolute: '/home/eb/Share/cypress-example-stubbed-api/cypress/integration/comp.js' } ]
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:server Getting remote state: { auth: undefined, props: null, origin: 'http://localhost:39903', strategy: 'file', visiting: undefined, domainName: 'localhost', fileServer: 'http://localhost:34977' }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 9 from queue { '3': { args: [], ms: 30000, cb: [Function: timeoutTimeout] }, '4': { args: [], ms: 1000, cb: [Function] }, '9': { args: [], ms: 85000, cb: [Function] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers queuing timer id 10 after 85000 ms
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child received timer id 10
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 10 from queue { '3': { args: [], ms: 30000, cb: [Function: timeoutTimeout] }, '4': { args: [], ms: 1000, cb: [Function] }, '10': { args: [], ms: 85000, cb: [Function] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers queuing timer id 11 after 85000 ms
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child received timer id 11
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:socket watch test file __all
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:controllers:spec request for cypress/support/index.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:preprocessor getFile /home/eb/Share/cypress-example-stubbed-api/cypress/support/index.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/support/index.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:preprocessor set default preprocessor
+2018-04-01T20:42:26.481Z cypress:browserify received user options {}
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:plugins register event 'file:preprocessor'
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:plugins execute plugin event 'file:preprocessor' with args: [object Object]
+2018-04-01T20:42:26.481Z cypress:browserify get /home/eb/Share/cypress-example-stubbed-api/cypress/support/index.js
+2018-04-01T20:42:26.481Z cypress:browserify input: /home/eb/Share/cypress-example-stubbed-api/cypress/support/index.js
+2018-04-01T20:42:26.481Z cypress:browserify output: /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/support/index.js
+2018-04-01T20:42:26.481Z cypress:browserify browserifyOptions: { extensions: [ '.js', '.jsx', '.coffee', '.cjsx' ],
+  transform: 
+   [ [ '/home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/resources/app/packages/server/node_modules/@cypress/browserify-preprocessor/cjsxify.js',
+       {} ],
+     [ '/home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/resources/app/packages/server/node_modules/babelify/index.js',
+       [Object] ] ],
+  plugin: [],
+  cache: {},
+  packageCache: {},
+  entries: [ '/home/eb/Share/cypress-example-stubbed-api/cypress/support/index.js' ] }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:controllers:spec request for cypress/integration/comp.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:preprocessor getFile /home/eb/Share/cypress-example-stubbed-api/cypress/integration/comp.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:appdata path: /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/integration/comp.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:plugins execute plugin event 'file:preprocessor' with args: [object Object]
+2018-04-01T20:42:26.488Z cypress:browserify get /home/eb/Share/cypress-example-stubbed-api/cypress/integration/comp.js
+2018-04-01T20:42:26.488Z cypress:browserify input: /home/eb/Share/cypress-example-stubbed-api/cypress/integration/comp.js
+2018-04-01T20:42:26.488Z cypress:browserify output: /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/integration/comp.js
+2018-04-01T20:42:26.488Z cypress:browserify browserifyOptions: { extensions: [ '.js', '.jsx', '.coffee', '.cjsx' ],
+  transform: 
+   [ [ '/home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/resources/app/packages/server/node_modules/@cypress/browserify-preprocessor/cjsxify.js',
+       [Object] ],
+     [ '/home/eb/Share/cypress-example-stubbed-api/node_modules/cypress/dist/Cypress/resources/app/packages/server/node_modules/babelify/index.js',
+       [Object] ] ],
+  plugin: [],
+  cache: {},
+  packageCache: {},
+  entries: [ '/home/eb/Share/cypress-example-stubbed-api/cypress/integration/comp.js' ] }
+2018-04-01T20:42:26.490Z cypress:browserify making bundle /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/support/index.js
+2018-04-01T20:42:26.491Z cypress:browserify making bundle /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/integration/comp.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child sending timer id 4
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 4 from queue { '3': { args: [], ms: 30000, cb: [Function: timeoutTimeout] }, '4': { args: [], ms: 1000, cb: [Function] }, '11': { args: [], ms: 85000, cb: [Function] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 3 from queue { '3': { args: [], ms: 30000, cb: [Function: timeoutTimeout] }, '11': { args: [], ms: 85000, cb: [Function] } }
+2018-04-01T20:42:26.875Z cypress:browserify errored bundling /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/integration/comp.js 
+/home/eb/Share/cypress-example-stubbed-api/components/lib/Document.css:1
+.glyphicon-refresh-animate {
+^
+ParseError: Unexpected token
+Oops...we found an error preparing this test file:
+
+  /home/eb/Share/cypress-example-stubbed-api/cypress/integration/comp.js
+
+The error was:
+
+
+/home/eb/Share/cypress-example-stubbed-api/components/lib/Document.css:1
+.glyphicon-refresh-animate {
+^
+ParseError: Unexpected token
+
+This occurred while Cypress was compiling and bundling your test code. This is usually caused by:
+
+- A missing file or dependency
+- A syntax error in the file or one of its dependencies
+
+Fix the error in your code and re-run your tests.
+
+  (Tests Finished)
+
+  - Tests:           0
+  - Passes:          0
+  - Failures:        1
+  - Pending:         0
+  - Duration:        0 seconds
+  - Screenshots:     0
+  - Video Recorded:  true
+  - Cypress Version: 2.1.0
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:headless attempting to close the browser
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:browsers killing browser process
+2018-04-01T20:42:26.960Z cypress:browserify finished bundling /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/support/index.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:controllers:spec send /home/eb/.config/Cypress/cy/production/projects/cypress-example-stubbed-api-c1c2d7d6f11d3604b47370af8a5004fb/bundles/cypress/support/index.js
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:browsers:electron closed event fired
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:browsers browser process killed
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:headless ending the video recording: /home/eb/Share/cypress-example-stubbed-api/cypress/videos/tobcv.mp4
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers queuing timer id 12 after 30000 ms
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers child received timer id 12
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 12 from queue { '11': { args: [], ms: 85000, cb: [Function] }, '12': { args: [], ms: 30000, cb: [Function: bound cleanupWebsocketResources] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 11 from queue { '11': { args: [], ms: 85000, cb: [Function] } }
+Sun, 01 Apr 2018 20:42:26 GMT cypress:server:timers clearing timer id 11 from queue {}
+Sun, 01 Apr 2018 20:42:27 GMT cypress:server:video ffmpeg ended
+
+
+  (Video)
+
+  - Started processing:   Compressing to 32 CRF
+  - Finished processing:  /home/eb/Share/cypress-example-stubbed-api/cypress/videos/tobcv.mp4 (0 seconds)
+Sun, 01 Apr 2018 20:42:27 GMT cypress:server:timers child sending timer id 8
+Sun, 01 Apr 2018 20:42:27 GMT cypress:server:headless Should copy Circle Artifacts? false
+
+
+  (All Done)
+
+Sun, 01 Apr 2018 20:42:27 GMT cypress:server about to exit with code 1

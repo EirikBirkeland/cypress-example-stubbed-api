@@ -4,11 +4,15 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "yarn install && cypress open",
-    "test": "cypress open"
+    "start": "yarn test",
+    "test": "yarn install && webpack components/Document.js && cypress open"
   },
   "devDependencies": {
-    "cypress": "^2.1.0"
+    "@cypress/webpack-preprocessor": "^2.0.1",
+    "css-loader": "^0.28.11",
+    "cypress": "^2.1.0",
+    "style-loader": "^0.20.3",
+    "webpack-cli": "^2.0.13"
   },
   "dependencies": {
     "axios": "^0.18.0",

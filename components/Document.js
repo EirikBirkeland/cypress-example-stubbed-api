@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import axios from 'axios'
 import {Table, Glyphicon} from 'react-bootstrap'
+import './lib/Document.css'
 
 import BootstrapCss from './lib/BootstrapCss'
 
@@ -39,7 +40,7 @@ export default class Document extends Component {
                 }
               </tbody>
             </Table>
-          : <h3><Glyphicon glyph="alert"/>
+          : <h3><span class="glyphicon glyphicon-refresh glyphicon-refresh-animate"/>
               &nbsp;No data available (yet)
             </h3>
       }

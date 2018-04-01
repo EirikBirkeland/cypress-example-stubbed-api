@@ -1,5 +1,5 @@
 import {mount} from 'cypress-react-unit-test';
-import Document from '../../components/Document';
+import Document from '../../dist/main';
 import React from 'react';
 
 describe('translation workbench', () => {
