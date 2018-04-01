@@ -9,25 +9,14 @@ describe('a document', () => {
     cy.server({method: 'GET', delay: 3000, status: 200, response: {}});
 
     // specify what route to intercept and what data to return
-    cy.route('localhost:3000/document', [
-      [
-        "This is a sentence", ""
-      ],
-      [
-        "This is also a sentence", ""
-      ],
-      [
-        "This not sentence", ""
-      ]
-    ]);
+    cy.route('localhost:3000/document', 'fixture:document');
 
     mount(<Select/>);
-
   });
 
   it('should take user input', () => {
-    cy.get('#1').type('Dette er en setning');
-    cy.get('#2').type('Dette er også en setning');
-    cy.get('#3').type('Dette ikke setning');
+    cy.get('#1').type('Gjør det enkleste som muligens kan fungere.');
+    cy.get('#2').type('Dilemmaet med eldre kodebaser: Før vi endrer noe kode, bør koden dekkes av tester. Men, for å få på plass tester, er det ofte nødvendig å gjøre endringer i koden.');
+    cy.get('#3').type('XP-filosofien går ut på å begynne der du er nå og jobbe mot idealet. Mao, er det noe du kan gjøre for å forbedre deg i forhold til der du befinner deg nå?');
   })
 });

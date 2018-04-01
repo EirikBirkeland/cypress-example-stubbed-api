@@ -1,7 +1,8 @@
 import React, {Component} from 'react'
-import PropTypes from 'prop-types'
 import axios from 'axios'
 import {Table, Glyphicon} from 'react-bootstrap'
+
+import BootstrapCss from './lib/BootstrapCss'
 
 export default class Document extends Component {
   constructor(props) {
@@ -18,27 +19,30 @@ export default class Document extends Component {
   }
 
   render() {
-    return (<div>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossOrigin="anonymous"/>
+    return (
+    <body style={{ "margin": "5%" }}>
+      <BootstrapCss/>
 
       <h3>Translation workbench</h3>
+
       {
-        Boolean(this.state.document)
+        !!this.state.document
           ? <Table striped bordered>
               <tbody>
                 {
                   this.state.document.map((unit, i) => (<tr key={i}>
-                    <td key={1}>{unit[0]}</td>
-                    <td key={2}>
-                      <textarea id={i + 1} defaultValue={unit[1]}></textarea>
+                    <td width="50%" key={1}>{unit[0]}</td>
+                    <td width="50%" key={2}>
+                      <div contentEditable style={{ "width": "100%" }} id={i + 1} defaultValue={unit[1]}></div>
                     </td>
                   </tr>))
                 }
               </tbody>
             </Table>
           : <h3><Glyphicon glyph="alert"/>
-              No data available. That XHR better be on its way.</h3>
+              No data available (yet)
+            </h3>
       }
-    </div>)
+    </body>)
   }
 }
