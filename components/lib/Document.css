@@ -20,3 +20,7 @@ td {
 body {
   margin: 5% !important;
 }
+
+div.editor {
+  width: 100%;
+}

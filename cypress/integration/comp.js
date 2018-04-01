@@ -14,9 +14,9 @@ describe('translation workbench', () => {
     mount(<body><Document/></body>);
   });
 
-  it('should accept user input', () => {
-    cy.get('#1').type('Gjør det enkleste som muligens kan fungere.');
-    cy.get('#2').type('Dilemmaet med eldre kodebaser: Før vi endrer noe kode, bør koden dekkes av tester. Men, for å få på plass tester, er det ofte nødvendig å gjøre endringer i koden.');
-    cy.get('#3').type('XP-filosofien går ut på å begynne der du er nå og jobbe mot idealet. Mao., finnes det noen små grep du kan ta for å forbedre ferdighetene dine?');
-  })
+  it('should support typing', () => {
+    cy.get('#1').type('Gjør så lite som nødvendig for å oppnå ønsket funksjonalitet');
+    cy.get('#2').type('Dilemmaet med eldre kodebaser: Før vi setter i gang med å endre på kode, bør koden dekkes av tester. Men for å få på plass tester, er det ofte nødvendig å endre koden!');
+    cy.get('#3').type('XP-filosofien går ut på å begynne der du er nå og jobbe mot det ideelle. Kan du ta noen små, konkrete tiltak allerede i dag for å forbedre ferdighetene dine?');
+  });
 });

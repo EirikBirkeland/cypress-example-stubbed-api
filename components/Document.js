@@ -27,14 +27,14 @@ export default class Document extends Component {
       <h3>Translation workbench</h3>
 
       {
-        !!this.state.document
+        Boolean(this.state.document)
           ? <Table striped bordered>
               <tbody>
                 {
                   this.state.document.map((unit, i) => (<tr key={i}>
                     <td width="50%" key={1}>{unit[0]}</td>
                     <td width="50%" key={2}>
-                      <div contentEditable style={{ "width": "100%" }} id={i + 1} defaultValue={unit[1]}></div>
+                      <div contentEditable className="editor" id={i + 1} defaultValue={unit[1]}></div>
                     </td>
                   </tr>))
                 }
