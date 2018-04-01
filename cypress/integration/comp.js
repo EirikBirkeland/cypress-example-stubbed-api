@@ -11,7 +11,7 @@ describe('translation workbench', () => {
     // specify what route to intercept and what data to return
     cy.route('localhost:3000/document', 'fixture:document');
 
-    mount(<Document/>);
+    mount(<body><Document/></body>);
   });
 
   it('should accept user input', () => {

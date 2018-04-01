@@ -21,7 +21,7 @@ export default class Document extends Component {
 
   render() {
     return (
-    <body style={{ "margin": "5%" }}>
+    <div>
       <BootstrapCss/>
 
       <h3>Translation workbench</h3>
@@ -44,6 +44,6 @@ export default class Document extends Component {
               &nbsp;No data available (yet)
             </h3>
       }
-    </body>)
+    </div>)
   }
 }
