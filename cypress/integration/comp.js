@@ -1,5 +1,5 @@
 import {mount} from 'cypress-react-unit-test';
-import Select from '../../components/Document';
+import Document from '../../components/Document';
 import React from 'react';
 
 describe('translation workbench', () => {
@@ -11,7 +11,7 @@ describe('translation workbench', () => {
     // specify what route to intercept and what data to return
     cy.route('localhost:3000/document', 'fixture:document');
 
-    mount(<Select/>);
+    mount(<Document/>);
   });
 
   it('should accept user input', () => {
