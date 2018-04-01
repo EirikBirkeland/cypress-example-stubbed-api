@@ -40,7 +40,7 @@ export default class Document extends Component {
               </tbody>
             </Table>
           : <h3><Glyphicon glyph="alert"/>
-              No data available (yet)
+              &nbsp;No data available (yet)
             </h3>
       }
     </body>)
